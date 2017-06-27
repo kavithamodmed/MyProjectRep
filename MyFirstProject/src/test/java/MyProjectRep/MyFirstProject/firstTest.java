@@ -23,6 +23,11 @@ public class firstTest extends manageWebDriver{
 		click("//button[@name = 'login']");
 		Assert.assertEquals(getText("//span[@id = 'firmName']"), "Demo Dermatology");
 	}
+	
+	@Test
+	public void sampleTest(){
+		
+	}
 }
 
 
