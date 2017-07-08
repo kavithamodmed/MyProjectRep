@@ -8,6 +8,7 @@
           <include name="sampleTestFail"/>
           <include name="afterTest"/>
           <include name="beforeTest"/>
+          <include name="sampleWikiTestFail"/>
         </methods>
       </class> <!-- MyProjectRep.MyFirstProject.firstTest -->
     </classes>

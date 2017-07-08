@@ -32,8 +32,15 @@ public class firstTest extends manageWebDriver{
 	}
 	
 	@Test
-	public void sampleTest(){
-		
+	public void sampleWikiTestFail() throws IOException{
+		navigateTo("https://www.wikipedia.org");
+		Assert.assertEquals(getText("//button[@id = 'js-lang-list-button']"), "Demo Dermatology");
+	}
+	
+	@Test
+	public void sampleWikiTestPass() throws IOException{
+		navigateTo("https://www.wikipedia.org");
+		Assert.assertEquals(getText("//button[@id = 'js-lang-list-button']"), "Read Wikipedia in your language");
 	}
 }
 
