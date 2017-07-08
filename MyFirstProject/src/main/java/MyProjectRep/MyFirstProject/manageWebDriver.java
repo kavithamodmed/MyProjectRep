@@ -10,7 +10,7 @@ import org.testng.annotations.BeforeTest;
 
 public class manageWebDriver {
 	
-	private static WebDriver driver;
+	protected static WebDriver driver;
 	
 	@BeforeTest
 	public void beforeTest()
